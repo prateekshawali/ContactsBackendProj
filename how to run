@@ -1,0 +1,28 @@
+open and write npm run dev
+
+it should show port no and database connected name
+
+
+go to thundercleint type url http://localhost:8080/api/users/register 
+register the new user with username,password in the body in json(post)
+
+go to thundercleint type url http://localhost:8080/api/users/login
+ login with username,password(post)
+ull see the json token copy iit
+
+
+another url go to thundercleint type url http://localhost:8080/api/contacts(post)
+enter name email phone in json body paste the token in auth and and in header create Authorisation add Bearer paste here also 
+
+another url go to thundercleint type url http://localhost:8080/api/contacts(get) ull c all the contacts in the login users acc
+
+
+another url go to thundercleint type url http://localhost:8080/api/contacts/paste some id which is shown after get conatcts and do update or delete
+
+again do /conatcts(get) to c the chnages
+
+
+u can also paste the jwt token of one user  through login to and try accessing the contact of others ull get error 
+
+
+also evrtym the jwt token expires so u might get unauthorized eror jst send post of login once agian ull get a new web token
