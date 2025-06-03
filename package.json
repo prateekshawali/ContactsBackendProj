@@ -17,6 +17,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.0",
-    "mongose": "^0.0.2-security"
+    "mongose": "^0.0.2-security",
+    "express": "^4.18.2"
   }
 }
